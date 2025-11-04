@@ -100,23 +100,6 @@ class _ProfilePageState extends State<ProfilePage> {
                 ),
               ),
             ),
-
-            const SizedBox(height: 20),
-
-            TextButton.icon(
-              onPressed: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(
-                    content: Text('Fitur logout belum diaktifkan.'),
-                  ),
-                );
-              },
-              icon: const Icon(Icons.logout, color: Colors.redAccent),
-              label: const Text(
-                'Keluar Akun',
-                style: TextStyle(color: Colors.redAccent),
-              ),
-            ),
           ],
         ),
       ),

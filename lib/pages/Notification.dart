@@ -5,23 +5,8 @@ class NotificationPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final List<Map<String, String>> notifications = [
-      {
-        'title': 'Prediksi Baru Tersimpan',
-        'message': 'Hasil prediksi ARIMA berhasil disimpan ke database.',
-        'time': '5 menit yang lalu',
-      },
-      {
-        'title': 'Sinkronisasi Data',
-        'message': 'Data terbaru dari rantai pasok garam telah diperbarui.',
-        'time': '2 jam yang lalu',
-      },
-      {
-        'title': 'Pembaruan Sistem',
-        'message': 'Versi aplikasi GaramChain telah diperbarui ke 1.2.0.',
-        'time': 'Kemarin',
-      },
-    ];
+    // Daftar notifikasi dikosongkan
+    final List<Map<String, String>> notifications = [];
 
     return Scaffold(
       appBar: AppBar(
